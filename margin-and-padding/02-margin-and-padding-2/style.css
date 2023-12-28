@@ -3,25 +3,46 @@ body {
   font-family: sans-serif;
 }
 
+* :not(body) {
+  padding: 8px;
+}
+
 .card {
-  width: 400px;
+  width: 416px;
   background: #fff;
+  padding: 8px;
+  box-sizing: border-box;
   margin: 16px auto;
 }
 
 .title {
   background: #e3f4ff;
+  margin-top: 0px;
+  margin-bottom: 8px;
+  font-size: 16px;
 }
 
 .content {
   background: #e3f4ff;
+  margin-bottom: 8px;
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin: 0px auto;
+  padding: 8px 24px;
+  font-size: 14px;
+}
+
+.content, .button-container {
+  font-size: 16px;
 }
